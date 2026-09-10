@@ -1,48 +1,56 @@
-# Dead Indirim (Deals Bot)
+# Dead Indirim
 
-> DeadCommunity product showcase — **no source code**.
+> ◆ DeadCommunity product card — **no source code · no API keys**.
 
-**Role:** Discount / deals Discord bot
+### ◆ Role
 
-A Discord bot focused on deals and discount-oriented notifications for community members.
+**Discount / deals Discord bot**
 
-## Live
+Discord bot focused on deals and discount-oriented notifications for the community.
 
-_Hostname not public yet — service runs on our production host._
+### ◆ Live
 
-## What it does
+↳ _Hostname not public yet — service runs on our production host._
 
-- Live Discord bot service on our host
-- HTTP surface for health/ops (production port mapped)
-- Part of the broader DeadCommunity bot fleet
+### ◆ What it does
 
-## Who it’s for
+▸ Live Discord bot service on our host
+▸ HTTP health/ops surface in production
+▸ Part of the broader DC bot fleet
 
-Deal-hunting community members
+### ◆ Highlights
 
-## Stack (high level)
+○ Always-on collector-oriented bot
+○ Operated with the rest of the fleet
+○ Source private
+
+### ◆ Who it’s for
+
+▸ Deal-hunting community members
+
+### ◆ Stack (high level)
 
 `Discord API` · `Docker` · `Python/Node service`
 
-## Status
+### ◆ Status
 
-- **Production:** running on DeadCommunity infrastructure  
-- **Source:** private (not published)  
-- **Operator model:** idea → UI/API → Docker deploy → uptime  
+| ▣ | ○ |
+|:--|:--|
+| Production | Running on DeadCommunity infrastructure |
+| Source | **Private** (not published) |
+| Public surface | This README + live URL only |
+| Operator model | ■ scope → ■ build → ■ containerize → ■ hostname → ■ iterate |
 
+### ◆ Policy
+
+| Included | Not included |
+|:---------|:-------------|
+| Purpose · live link · stack overview | Application source |
+| High-level architecture notes | `.env` · secrets · API keys · tokens |
+| Operator story | Production private configs |
 
 ---
 
-## About this repository
-
-This is a **public product card**, not a source dump.
-
-| Included | Not included |
-|----------|--------------|
-| What the product is | Application source code |
-| Live URL (when public) | `.env`, secrets, API keys |
-| High-level stack | Production private configs |
-
-Index of all products: [deadcommunity-showcase](https://github.com/Semaru47/deadcommunity-showcase)  
-Profile: [github.com/Semaru47](https://github.com/Semaru47) · Site: [deadcommunity.com](https://deadcommunity.com)
-
+↳ Index: [deadcommunity-showcase](https://github.com/Semaru47/deadcommunity-showcase)  
+↳ Profile: [github.com/Semaru47](https://github.com/Semaru47)  
+↳ Brand: [deadcommunity.com](https://deadcommunity.com)
